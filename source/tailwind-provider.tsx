@@ -12,6 +12,7 @@ import {Utilities} from './types';
 interface Props {
 	utilities: Utilities;
 	colorScheme?: ColorSchemeName;
+	children: React.ReactNode;
 }
 
 const TailwindProvider: React.FC<Props> = ({
